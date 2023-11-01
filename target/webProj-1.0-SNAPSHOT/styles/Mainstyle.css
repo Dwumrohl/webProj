@@ -1,0 +1,208 @@
+body {
+    background-image: url("images/blackbg2.jpg");
+    background-attachment: fixed;
+}
+
+ .front-panel {
+     font-family: 'Press Start 2P', cursive;
+     margin-left: 20px;
+     
+ }
+ #welcome{
+     font-family: 'Press Start 2P', cursive;
+     color: white;
+     width: 150px;
+     font-size: 25pt;
+     top: 20px;
+     -webkit-transition: all 0.3s ease;;
+     -moz-transition: all 0.3s ease;;
+     -o-transition: all 0.3s ease;;
+     transition: all 0.3s ease;
+ }
+ .main{
+     font-family: 'Press Start 2P', cursive;
+     color: white;
+     font-size: 23pt;
+     align-content: center;
+     text-align: center;
+     margin-top: 100px;
+ }
+ .media {
+     text-decoration: none;
+     width: 75px;
+     height: 75px;
+     margin-right: 10px;
+     font-size: 20pt;
+     vertical-align: middle;
+     padding-left: 10px;
+     -webkit-transition: all 0.3s ease;;
+     -moz-transition: all 0.3s ease;;
+     -o-transition: all 0.3s ease;;
+     transition: all 0.3s ease;
+ }
+ 
+ .main button{
+	 margin-left: 200px;
+	background-color: #c8cbc8;
+	color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+	align-content: center;
+	
+ }
+ .main button.active {
+    background-color: #ccc;
+}
+.tabcontent {
+    display: none;
+	color: white;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+}
+ .main button:hover {
+    background-color: #ddd;
+}
+ #twitter{
+     margin-left: 80px;
+ }
+ #fb{
+     margin-left: 105px;
+ }
+ #vk:hover, #fb:hover {
+     text-shadow:
+             1px 1px #597da3,
+             2px 2px #597da3,
+             3px 3px #597da3,
+             4px 4px #597da3,
+             5px 5px #597da3,
+             6px 6px #597da3,
+             7px 7px #53ea93;
+     -webkit-transform: translateX(-7px);
+     transform: translateX(-7px);
+ }
+ #twitter:hover {
+    text-shadow:
+            1px 1px #00BFFF,
+            2px 2px #00BFFF,
+            3px 3px #00BFFF,
+            4px 4px #00BFFF,
+            5px 5px #00BFFF,
+            6px 6px #00BFFF,
+            7px 7px #53ea93;
+    -webkit-transform: translateX(-7px);
+    transform: translateX(-7px);
+}
+ #welcome:hover{
+     text-shadow:
+             1px 1px #53ea93,
+             2px 2px #53ea93,
+             3px 3px #53ea93,
+             4px 4px #53ea93,
+             5px 5px #53ea93,
+             6px 6px #53ea93,
+             7px 7px #53ea93;
+     -webkit-transform: translateX(-7px);
+     transform: translateX(-7px);
+ }
+ #fw1{
+     margin-left: 125px;
+     width: 70px;
+     height: 70px;
+     padding: 0px;
+ }
+ #fw2{
+     width: 70px;
+     height: 70px;
+     padding: 0px;
+ }
+ .front-panel a:not(.notb) {
+     color: white !important;
+     text-decoration: none;
+     padding: 10px;
+     background-color: #00bfff;
+     border-top-left-radius: 15px;
+     border-top-right-radius: 15px;
+     border: outset 2px;
+     border-color: black;
+     width: 150px;
+     font-size: 15pt;
+     -webkit-transition: all 0.3s ease;;
+     -moz-transition: all 0.3s ease;;
+     -o-transition: all 0.3s ease;;
+     transition: all 0.3s ease;
+     margin-left: -15px;
+}
+  .front-panel a:hover:not(.notb) {
+      -webkit-transform: scale(0.7);
+      -ms-transform: scale(0.7);
+      transform: scale(0.7);
+      background:#53ea93;
+      color: #fff;
+      box-shadow:
+              0 0 7px #fff,
+              0 0 10px #fff,
+              0 0 21px #fff,
+              0 0 42px #0fa,
+              0 0 82px #0fa,
+              0 0 92px #0fa,
+              0 0 102px #0fa,
+              0 0 151px #0fa;
+ }
+  #mn:hover{
+      background: red;
+      color: #fff;
+      box-shadow:
+              0 0 7px #fff,
+              0 0 10px #fff,
+              0 0 21px #fff,
+              0 0 42px red,
+              0 0 82px red,
+              0 0 92px red,
+              0 0 102px red,
+              0 0 151px red;
+  }
+#sel:hover{
+    background: blue;
+    color: #fff;
+    box-shadow:
+            0 0 7px #fff,
+            0 0 10px #fff,
+            0 0 21px #fff,
+            0 0 42px blue,
+            0 0 82px blue,
+            0 0 92px blue,
+            0 0 102px blue,
+            0 0 151px blue;
+}
+#profile:hover{
+    background: #ffd700;
+    color: #fff;
+    box-shadow:
+            0 0 7px #fff,
+            0 0 10px #fff,
+            0 0 21px #fff,
+            0 0 42px #ffd700,
+            0 0 82px #ffd700,
+            0 0 92px #ffd700,
+            0 0 102px #ffd700,
+            0 0 151px #ffd700;
+}
+#news:hover{
+    background: #9966cc;
+    color: #fff;
+    box-shadow:
+            0 0 7px #fff,
+            0 0 10px #fff,
+            0 0 21px #fff,
+            0 0 42px #9966cc,
+            0 0 82px #9966cc,
+            0 0 92px #9966cc,
+            0 0 102px #9966cc,
+            0 0 151px #9966cc;
+}
+
+  

@@ -1,0 +1,147 @@
+body {
+    background-image: url("images/blackbg2.jpg");
+    background-attachment: fixed;
+}
+
+.front-panel {
+    font-family: 'Press Start 2P', cursive;
+    margin-left: 20px;
+
+}
+#welcome{
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    width: 150px;
+    font-size: 25pt;
+    top: 20px;
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+}
+
+
+
+#welcome:hover{
+    text-shadow:
+            1px 1px #53ea93,
+            2px 2px #53ea93,
+            3px 3px #53ea93,
+            4px 4px #53ea93,
+            5px 5px #53ea93,
+            6px 6px #53ea93,
+            7px 7px #53ea93;
+    -webkit-transform: translateX(-7px);
+    transform: translateX(-7px);
+}
+#fw1{
+    margin-left: 125px;
+    width: 70px;
+    height: 70px;
+    padding: 0px;
+}
+#fw2{
+    width: 70px;
+    height: 70px;
+    padding: 0px;
+}
+.front-panel a:not(.notb) {
+    color: white !important;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #00bfff;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border: outset 2px;
+    border-color: black;
+    width: 150px;
+    font-size: 15pt;
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+    margin-left: -15px;
+}
+.fa-home{
+    font-family: 'Press Start 2P', cursive;
+}
+.front-panel a:hover:not(.notb) {
+    -webkit-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    transform: scale(0.7);
+    background:#53ea93;
+    color: #fff;
+    box-shadow:
+            0 0 7px #fff,
+            0 0 10px #fff,
+            0 0 21px #fff,
+            0 0 42px #0fa,
+            0 0 82px #0fa,
+            0 0 92px #0fa,
+            0 0 102px #0fa,
+            0 0 151px #0fa;
+}
+#mn:hover{
+    background: red;
+    color: #fff;
+    box-shadow:
+            0 0 7px #fff,
+            0 0 10px #fff,
+            0 0 21px #fff,
+            0 0 42px red,
+            0 0 82px red,
+            0 0 92px red,
+            0 0 102px red,
+            0 0 151px red;
+}
+#sel:hover{
+    background: blue;
+    color: #fff;
+    box-shadow:
+            0 0 7px #fff,
+            0 0 10px #fff,
+            0 0 21px #fff,
+            0 0 42px blue,
+            0 0 82px blue,
+            0 0 92px blue,
+            0 0 102px blue,
+            0 0 151px blue;
+}
+#profile:hover{
+    background: #ffd700;
+    color: #fff;
+    box-shadow:
+            0 0 7px #fff,
+            0 0 10px #fff,
+            0 0 21px #fff,
+            0 0 42px #ffd700,
+            0 0 82px #ffd700,
+            0 0 92px #ffd700,
+            0 0 102px #ffd700,
+            0 0 151px #ffd700;
+}
+#news:hover{
+    background: #9966cc;
+    color: #fff;
+    box-shadow:
+            0 0 7px #fff,
+            0 0 10px #fff,
+            0 0 21px #fff,
+            0 0 42px #9966cc,
+            0 0 82px #9966cc,
+            0 0 92px #9966cc,
+            0 0 102px #9966cc,
+            0 0 151px #9966cc;
+}
+
+
+
+.profileClosed {
+    color: white;
+    font-size: 16pt;
+}
+.profileOpen{
+    color: white;
+    font-size: 16pt;
+}
+
